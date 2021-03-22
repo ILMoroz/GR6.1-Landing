@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Firasans-Regular";
+  src: url("fonts/Firasans-Regular.ttf");
+}
+/*Home*/
+#layout-home {
+  background: linear-gradient(180deg, rgba(111, 203, 255, 0) 71.11%, #6FCBFF 100%), url(../img/bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+.layout-header {
+  display: grid;
+  align-items: center;
+}
+.layout-content {
+  margin-left: 80px;
+}
+.l-logo {
+  text-align: center;
+}
+.l-logo p {
+  margin-top: 12.95px;
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.9904px;
+  line-height: 13px;
+  text-transform: uppercase;
+  backdrop-filter: blur(14.6538px);
+  color: #fff;
+}
+.l-h-img {
+  text-align: center;
+}
+.l-h-name {
+  margin-bottom: 102px;
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 107.9%;
+  color: #fff;
+}
+.l-h-desc {
+  margin-bottom: 37px;
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 129.9%;
+  color: #fff;
+}
+.btn-startgame {
+  background: #fff;
+  border-radius: 64px;
+  width: 297px;
+  height: 62px;
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+.btn-startgame:hover {
+  box-shadow: 0px 16px 32px rgba(255, 255, 255, 0.35);
+}
+/*About*/
+#layout-about {
+  background: linear-gradient(180deg, rgba(111, 203, 255, 0) 71.11%, #6FCBFF 100%), url(../img/bg-about.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.l-a-name {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  word-break: break-word;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 63px;
+}
+.l-a-desc {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-word;
+  color: #FFFFFF;
+}
+.l-a-desc span {
+  font-family: "Montserrat-Bold" !important;
+  font-weight: bold;
+}
+/*Benefits*/
+#layout-benefits {
+  background-color: #fff;
+  height: 100vh;
+  display: grid;
+}
+.l-b-title {
+  margin-top: 77px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.l-b-block {
+  font-family: "Montserrat-SemiBold";
+  width: 322px;
+  height: 190px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 128px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.l-b-block .b-b-img svg path {
+  fill: #0DA8DE;
+}
+.l-b-block:hover {
+  background: #0DA8DE;
+  color: #fff !important;
+}
+.l-b-block:hover .b-b-img svg path {
+  fill: #fff;
+}
+.b-b-desc {
+  font-family: "Firasans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+/*Developer*/
+#layout-dev {
+  background: linear-gradient(180deg, rgba(111, 203, 255, 0) 71.11%, #6FCBFF 100%), url(../img/bg-dev.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+.layout-dev-title {
+  margin-top: 77px;
+  margin-left: 80px;
+}
+.l-d-slider {
+  margin-left: 80px;
+}
+.l-d-title {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 94.9%;
+  color: #FFFFFF;
+}
+.slider-number {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 94.9%;
+  color: #FFFFFF;
+  margin-bottom: 76px;
+}
+.slider-name {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 94.9%;
+  color: #FFFFFF;
+  margin-bottom: 27px;
+}
+.slider-desc {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 94.9%;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+.slider-img img {
+  filter: drop-shadow(0px 25px 48px rgba(0, 0, 0, 0.1));
+  border-radius: 8px;
+}
+/*Games*/
+#layout-games {
+  background: linear-gradient(180deg, rgba(111, 203, 255, 0) 71.11%, #6FCBFF 100%), url(../img/bg-games.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+.layout-games-title {
+  margin-top: 77px;
+}
+.l-g-title {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 94.9%;
+  text-align: right;
+  color: #FFFFFF;
+}
+.layout-games-content {
+  display: grid;
+  align-content: end;
+  margin-left: 80px;
+}
+.l-g-name {
+  margin-bottom: 27px;
+  text-align: center;
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.15);
+}
+.l-g-rts {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 128px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+}
+.l-g-mt {
+  background: red;
+  box-shadow: 0px 0px 128px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+}
+.l-g-null {
+  background: green;
+  box-shadow: 0px 0px 128px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+}
+/*Teams*/
+#layout-teams {
+  background-color: #fff;
+  height: 100vh;
+  display: grid;
+}
+.layout-menu-teams {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.menu-name {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 62px;
+  color: #000000;
+  margin-bottom: 61px;
+}
+.menu-select-dep {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.sel-active {
+  background: #2D9CDB;
+  box-shadow: 0px 7.4175px 18.9888px rgba(45, 156, 219, 0.15);
+  backdrop-filter: blur(14.2416px);
+  transition: 0.3s;
+}
+.sel-active a {
+  color: #fff !important;
+}
+.menu-teams ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-teams ul li {
+  width: 157px;
+  height: 35px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 7.4175px 18.9888px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(14.2416px);
+  border-radius: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.menu-teams ul li:hover {
+  background: #2D9CDB;
+  transition: 0.3s;
+  box-shadow: 0px 7.4175px 18.9888px rgba(45, 156, 219, 0.15);
+  backdrop-filter: blur(14.2416px);
+}
+.menu-teams ul li:hover a {
+  color: #fff !important;
+}
+.menu-teams ul li a {
+  font-family: "Montserrat-Bold";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #CCCCCC;
+}

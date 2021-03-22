@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="layout">
+    <Home />
+    <About />
+    <Benefits />
+    <Developers />
+    <Games />
+    <Teams />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
+<script>
+import Home from '@/views/Home.vue'
+import About from '@/views/About.vue'
+import Benefits from '@/views/Benefits.vue'
+import Developers from '@/views/Developers.vue'
+import Games from '@/views/Games.vue'
+import Teams from '@/views/Teams.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+     Home, About, Benefits, Developers, Games, Teams
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url("assets/libs/bootstrap/css/bootstrap.css");
+@import url("assets/css/style.css");
 </style>
