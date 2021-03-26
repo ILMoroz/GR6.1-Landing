@@ -233,6 +233,7 @@
   background-size: cover;
   height: 100vh;
   display: grid;
+  list-style: none;
 }
 .layout-games-title {
   margin-top: 77px;
