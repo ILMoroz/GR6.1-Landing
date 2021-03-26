@@ -1,5 +1,5 @@
 <template>
-    <div id="layout-games">
+    <div id="layout-games" class="section">
         <div class="layout-games-title">
             <div class="container-fluid">
                 <div class="row" style="justify-content: flex-end; margin-right: 80px">

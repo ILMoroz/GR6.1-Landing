@@ -1,11 +1,11 @@
 <template>
-    <div id="layout-teams">
+    <div id="layout-teams" class="section">
        <div class="layout-menu-teams">
            <div class="container-fluid">
-               <div class="row">
-                   <div class="col-lg-3">
+               <div class="row justify-content-center">
+                   <div class="col-lg-4">
                        <div class="menu-name">
-                           Команда нашего проекта
+                           Команда <br> нашего <br> проекта
                        </div>
                       <div class="menu-select-dep">
                           Выберите <br> отдел
@@ -21,68 +21,82 @@
                           </ul>
                       </div>
                    </div>
-                   <div class="col-lg-2">
-                       <div class="test-block">
-                           <div class="test-img">
+                   <div class="col-lg-2" style="display: grid; align-content: space-between; ">
+                       <div class="team-block">
+                           <div class="team-img">
                                <img src="../assets/img/bogurov.jpg" alt="">
                            </div>
-                           <div class="test-name">
+                           <div class="team-name">
                                 Борис
                                 Богуров
                            </div>
-                           <div class="test-dep">
+                           <div class="team-pos">
                                 Пресс-секретарь
                            </div>
                        </div>
-                       <div class="test-block">
-                           <div class="test-img">
+                       <div class="team-block">
+                           <div class="team-img">
                                <img src="../assets/img/bogurov.jpg" alt="">
                            </div>
-                           <div class="test-name">
+                           <div class="team-name">
                                 Борис
                                 Богуров
                            </div>
-                           <div class="test-dep">
-                                Пресс-секретарь
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-lg-2">
-                       <div class="test-block">
-                           <div class="test-img">
-                               <img src="../assets/img/bogurov.jpg" alt="">
-                           </div>
-                           <div class="test-name">
-                                Борис
-                                Богуров
-                           </div>
-                           <div class="test-dep">
+                           <div class="team-pos">
                                 Пресс-секретарь
                            </div>
                        </div>
                    </div>
-                   <div class="col-lg-2">
-                       <div class="test-block">
-                           <div class="test-img">
+                    <div class="col-lg-2" style="display: grid; align-content: center;">
+                       <div class="team-block">
+                           <div class="team-img">
                                <img src="../assets/img/bogurov.jpg" alt="">
                            </div>
-                           <div class="test-name">
+                           <div class="team-name">
                                 Борис
                                 Богуров
                            </div>
-                           <div class="test-dep">
+                           <div class="team-pos">
                                 Пресс-секретарь
                            </div>
                        </div>
-                       <div class="test-block">
-                           <div class="test-img">
+                   </div>
+                    <div class="col-lg-2" style="display: grid; align-content: space-between; ">
+                      <div class="team-block">
+                           <div class="team-img">
                                <img src="../assets/img/bogurov.jpg" alt="">
                            </div>
-                           <div class="test-name">
+                           <div class="team-name">
                                 Борис
                                 Богуров
                            </div>
-                           <div class="test-dep">
+                           <div class="team-pos">
+                                Пресс-секретарь
+                           </div>
+                       </div>
+                      <div class="team-block">
+                           <div class="team-img">
+                               <img src="../assets/img/bogurov.jpg" alt="">
+                           </div>
+                           <div class="team-name">
+                                Борис
+                                Богуров
+                           </div>
+                           <div class="team-pos">
+                                Пресс-секретарь
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-2" style="display: grid; align-content: center;">
+                       <div class="team-block">
+                           <div class="team-img">
+                               <img src="../assets/img/bogurov.jpg" alt="">
+                           </div>
+                           <div class="team-name">
+                                Борис
+                                Богуров
+                           </div>
+                           <div class="team-pos">
                                 Пресс-секретарь
                            </div>
                        </div>

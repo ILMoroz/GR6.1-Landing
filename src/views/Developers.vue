@@ -1,5 +1,5 @@
 <template>
-    <div id="layout-dev">
+    <div id="layout-dev" class="section">
         <div class="layout-dev-title">
             <div class="container-fluid">
                 <div class="row">

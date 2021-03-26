@@ -1,27 +1,34 @@
 <template>
   <div id="layout">
-    <Home />
-    <About />
-    <Benefits />
-    <Developers />
-    <Games />
-    <Teams />
+    <full-page ref="fullpage" :options="options" id="fullpage">
+      <Home />
+      <About />
+      <Benefits />
+      <Developers />
+      <Games />
+      <Teams />
+      <Feedback />
+    </full-page>
   </div>
 </template>
 
 
 <script>
+
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Benefits from '@/views/Benefits.vue'
 import Developers from '@/views/Developers.vue'
 import Games from '@/views/Games.vue'
 import Teams from '@/views/Teams.vue'
+import Feedback from '@/views/Feedback.vue'
+
 export default {
   name: 'App',
   components: {
-     Home, About, Benefits, Developers, Games, Teams
-  }
+     Home, About, Benefits, Developers, Games, Teams, Feedback
+  },
+
 }
 </script>
 
