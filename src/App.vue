@@ -1,14 +1,12 @@
 <template>
   <div id="layout">
-    <full-page ref="fullpage" :options="options" id="fullpage">
-      <Home />
-      <About />
-      <Benefits />
-      <Developers />
-      <Games />
-      <Teams />
-      <Feedback />
-    </full-page>
+    <Home />
+    <About />
+    <Benefits />
+    <Developers />
+    <Games />
+    <Teams />
+    <Feedback />
   </div>
 </template>
 

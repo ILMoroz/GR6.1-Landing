@@ -233,7 +233,6 @@
   background-size: cover;
   height: 100vh;
   display: grid;
-  list-style: none;
 }
 .layout-games-title {
   margin-top: 77px;
@@ -460,14 +459,14 @@
 .form-feedback form .form-button .btn-send svg {
   margin-left: 47px;
 }
-.layout-foter {
+.layout-footer {
   display: grid;
   align-items: end;
 }
-.foter-ul {
+.footer-ul {
   list-style: none;
 }
-.foter-ul span {
+.footer-ul span {
   margin-bottom: 6px;
   font-family: "OpenSans-SemiBold";
   font-style: normal;
@@ -476,7 +475,7 @@
   line-height: 19px;
   color: #000000;
 }
-.foter-ul li a {
+.footer-ul li a {
   font-family: "OpenSans-Regular";
   font-style: normal;
   font-weight: normal;
@@ -486,15 +485,15 @@
   margin-bottom: 6px;
   text-decoration: none;
 }
-.foter-logo {
+.footer-logo {
   margin-left: 80px;
 }
-.foter-socbox {
+.footer-socbox {
   text-align: center;
   list-style: none;
   padding: 0;
 }
-.foter-socbox span {
+.footer-socbox span {
   margin-bottom: 6px;
   font-family: "OpenSans-SemiBold";
   font-style: normal;
@@ -503,14 +502,14 @@
   line-height: 19px;
   color: #000000;
 }
-.foter-socbox a svg {
+.footer-socbox a svg {
   margin: 10px;
 }
-.foter-auth {
+.footer-auth {
   list-style: none;
   padding: 0;
 }
-.foter-auth span {
+.footer-auth span {
   margin-bottom: 6px;
   font-family: "OpenSans-SemiBold";
   font-style: normal;
@@ -519,6 +518,6 @@
   line-height: 19px;
   color: #000000;
 }
-.foter-auth a svg {
+.footer-auth a svg {
   margin: 5px;
 }
