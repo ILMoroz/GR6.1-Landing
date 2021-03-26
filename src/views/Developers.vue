@@ -29,7 +29,7 @@
                            </div>
                            <div class="slider-desc"> 3D Модель </div>
                            <div class="slider-img">
-                               <img src="../assets/img/slider.jpg">
+                               <img src="../assets/img/dev/slider.jpg">
                            </div>
                        </div>
                    </div>
@@ -44,7 +44,7 @@
                            </div>
                            <div class="slider-desc"> 3D Модель </div>
                            <div class="slider-img">
-                               <img src="../assets/img/slider.jpg">
+                               <img src="../assets/img/dev/slider.jpg">
                            </div>
                        </div>
                    </div>
@@ -59,7 +59,7 @@
                            </div>
                            <div class="slider-desc"> 3D Модель </div>
                            <div class="slider-img">
-                               <img src="../assets/img/slider.jpg">
+                               <img src="../assets/img/dev/slider.jpg">
                            </div>
                        </div>
                    </div>
@@ -74,7 +74,7 @@
                            </div>
                            <div class="slider-desc"> 3D Модель </div>
                            <div class="slider-img">
-                               <img src="../assets/img/slider.jpg">
+                               <img src="../assets/img/dev/slider.jpg">
                            </div>
                        </div>
                    </div>

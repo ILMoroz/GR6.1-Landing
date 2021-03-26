@@ -6,7 +6,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
               <div class="l-h-img">
-                  <img src="../assets/img/ed4m.png">
+                  <img src="../assets/img/bg/img-home.png">
               </div>
           </div>
           <div class="col-lg-4 offset-1">
